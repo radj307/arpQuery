@@ -1,0 +1,15 @@
+﻿cmake_minimum_required (VERSION 3.20)
+
+file(GLOB SRCS
+	RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
+	CONFIGURE_DEPENDS
+	"*.c*"
+)
+file(GLOB HEADERS
+	RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
+	CONFIGURE_DEPENDS
+	"*.h*"
+)
+
+add_executable(arpQuery "${SRCS}")
+
