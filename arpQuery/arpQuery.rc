@@ -1,0 +1,35 @@
+1 TYPELIB "arpQuery.rc"
+
+1 VERSIONINFO
+ FILEVERSION 0, 0, 0, 0
+ PRODUCTVERSION 0, 0, 0, 0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "radj307"
+            VALUE "FileDescription", "Commandline ARP table querying utility."
+            VALUE "FileVersion","0, 0, 0, 0"
+            VALUE "InternalName", "arpQuery"
+            VALUE "LegalCopyright", "GPLv2"
+            VALUE "OriginalFilename", "arpQuery"
+            VALUE "ProductName", "arpQuery"
+            VALUE "ProductVersion","0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+IDI_ICON1               ICON                    "X:/_Workspace/_repo/arpQuery/arpQuery/arpQuery1.ico"
